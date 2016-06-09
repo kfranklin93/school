@@ -44,6 +44,7 @@
           });
       },
 
+
       /**
        * Delete access token and user info
        */
@@ -51,6 +52,7 @@
         $cookies.remove('token');
         currentUser = {};
       },
+
 
       /**
        * Create a new user
@@ -116,6 +118,7 @@
           });
       },
 
+
       /**
        * Check if a user is logged in
        *   (synchronous|asynchronous)
@@ -170,6 +173,17 @@
        */
       isAdmin() {
         return Auth.hasRole.apply(Auth, [].concat.apply(['admin'], arguments));
+      },
+
+      /**
+       * Check if a user is an teacher
+       *   (synchronous|asynchronous)
+       *
+       * @param  {Function|*} callback - optional, function(is)
+       * @return {Bool|Promise}
+       */
+      isTeacher() {
+        return Auth.hasRole.apply(Auth, [].concat.apply(['teacher'], arguments));
       },
 
       /**
