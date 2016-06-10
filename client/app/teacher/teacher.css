@@ -19,6 +19,9 @@
 }
 
 .myBox{
-	border: 1px red solid;
-	background-color: #ff9999;
+	border: 1px black solid;
+	background-color: transparent;
+}
+.meetAndGreet{
+	text-align: center;
 }
