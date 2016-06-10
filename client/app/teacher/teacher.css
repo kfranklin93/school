@@ -25,3 +25,9 @@
 .meetAndGreet{
 	text-align: center;
 }
+.lesson{
+text-align: center;
+}
+.iframe{
+	box-shadow: 1px 1px 5px 0px red;
+}
