@@ -15,8 +15,24 @@ class SettingsController {
           this.message = 'Password successfully changed.';
         })
         .catch(() => {
-          form.password.$setValidity('mongoose', false);
+          form.myPassword.$setValidity('mongoose', false);
           this.errors.other = 'Incorrect password';
+          this.message = '';
+        });
+    }
+  }
+
+    changeName(form) {
+    this.submitted = true;
+
+    if (form.$valid) {
+      this.Auth.changeName(this.user.oldName, this.user.newName)
+        .then(() => {
+          this.message = 'Name successfully changed.';
+        })
+        .catch(() => {
+          form.myUserName.$setValidity('mongoose', false);
+          this.errors.other = 'Incorrect name line error';
           this.message = '';
         });
     }

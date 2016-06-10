@@ -3,6 +3,7 @@
 angular.module('schoolApp', [
 				'schoolApp.auth', 
 				'schoolApp.admin', 
+        'schoolApp.teacher',
 				'schoolApp.constants',
     			'ngCookies', 
     			'ngResource', 

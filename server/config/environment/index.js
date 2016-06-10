@@ -25,7 +25,7 @@ var all = {
   ip: process.env.IP || '0.0.0.0',
 
   // Should we populate the DB with sample data?
-  seedDB: false,
+  seedDB: true,
 
   // Secret for session, you will want to change this and make it an environment variable
   secrets: {
@@ -42,8 +42,8 @@ var all = {
   },
 
   facebook: {
-    clientID:     process.env.FACEBOOK_ID || 'id',
-    clientSecret: process.env.FACEBOOK_SECRET || 'secret',
+    clientID:     process.env.FACEBOOK_ID || '891335287678663',
+    clientSecret: process.env.FACEBOOK_SECRET || '2cc9822f901167b6d946ae5e3834279a',
     callbackURL:  (process.env.DOMAIN || '') + '/auth/facebook/callback'
   },
 
@@ -54,8 +54,8 @@ var all = {
   },
 
   google: {
-    clientID:     process.env.GOOGLE_ID || 'id',
-    clientSecret: process.env.GOOGLE_SECRET || 'secret',
+    clientID:     process.env.GOOGLE_ID || '433456744471-t0odpnl4c623fluqjjog3vjtt65ps8qm.apps.googleusercontent.com',
+    clientSecret: process.env.GOOGLE_SECRET || 'lFrC8tCQsq3YWcsdhr_PtXOa',
     callbackURL:  (process.env.DOMAIN || '') + '/auth/google/callback'
   }
 };

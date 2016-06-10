@@ -5,3 +5,8 @@ footer.footer {
   border-top: 1px solid #E5E5E5;
   background-color: brown;
 }
+
+footer p.soft{
+    font-size: 0.85em;
+    font-weight: lighter;
+}
