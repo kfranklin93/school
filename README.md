@@ -1,7 +1,15 @@
-# school
+# LifeLessons
 
+###We'll answer these questions throughout the presentation:
+
+How will it solve their problems?
+<br>
+How will it help them to achieve their goals faster and with less effort? 
+<br>
+How will it save them time or money? 
+<br>
+<br>
 This project was generated with the [Angular Full-Stack Generator](https://github.com/DaftMonk/generator-angular-fullstack) version 3.7.5.
-
 ## Getting Started
 
 ### Prerequisites
@@ -39,10 +47,12 @@ and that gives you API endpoints
 Running `npm test` will run the unit tests with karma.
 
 
-Bombay, India from kindegan thru 3 or 4th
-Bangalore, India from 3rd or 4th thru 5th
-Annie Rai: Madras from 5th thru 8th..
-Annie Rai: Sorry, Bombay from kingdom thru 2nd.. from bangalore from 2nd to 4th.. madras from 4th thru 8th..
-Tampa, Florida, USA from 10th thru 12 to graduate..
+##About Our Client
+
+Annie Rai was born in Nepal, near China. She began going to a school for the Deaf from kindergarden through 2nd  grade. She and her family then moved to 
+Bangalore, India from 3rd through 5th.
+From 4th through 8th, she attended Madras, in India. She and her parents moved to Tampa, Florida, USA from 10th thru 12th grade.
+<br>
+Annie teaches American Sign Language at Atlanta International Language Institute in North Atlanta. 
 
 http://www.languageatlanta.com/
