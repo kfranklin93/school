@@ -47,6 +47,11 @@ and that gives you API endpoints
 Running `npm test` will run the unit tests with karma.
 
 
+##Future Features
+Add Skype-like Videochat
+<br>
+Assign User roles from the 
+
 ##About Our Client
 
 Annie Rai was born in Nepal, near China. She began going to a school for the Deaf from kindergarden through 2nd  grade. She and her family then moved to 
